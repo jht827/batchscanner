@@ -135,14 +135,15 @@
 /* Begin XCBuildConfiguration section */
     111111111111111111111130 /* Debug */ = {
       isa = XCBuildConfiguration;
-      buildSettings = {
-        ALWAYS_SEARCH_USER_PATHS = NO;
-        CLANG_ENABLE_MODULES = YES;
-        CLANG_ENABLE_OBJC_ARC = YES;
-        CODE_SIGN_STYLE = Automatic;
-        CURRENT_PROJECT_VERSION = 1;
-        DEVELOPMENT_TEAM = "";
-        ENABLE_PREVIEWS = YES;
+		buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CODE_SIGNING_ALLOWED = NO;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = "";
+			ENABLE_PREVIEWS = YES;
         GENERATE_INFOPLIST_FILE = NO;
         INFOPLIST_FILE = BatchScanner/Info.plist;
         IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -161,14 +162,15 @@
     };
     111111111111111111111131 /* Release */ = {
       isa = XCBuildConfiguration;
-      buildSettings = {
-        ALWAYS_SEARCH_USER_PATHS = NO;
-        CLANG_ENABLE_MODULES = YES;
-        CLANG_ENABLE_OBJC_ARC = YES;
-        CODE_SIGN_STYLE = Automatic;
-        CURRENT_PROJECT_VERSION = 1;
-        DEVELOPMENT_TEAM = "";
-        ENABLE_PREVIEWS = YES;
+		buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CODE_SIGNING_ALLOWED = NO;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = "";
+			ENABLE_PREVIEWS = YES;
         GENERATE_INFOPLIST_FILE = NO;
         INFOPLIST_FILE = BatchScanner/Info.plist;
         IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -187,22 +189,24 @@
     };
     111111111111111111111132 /* Debug */ = {
       isa = XCBuildConfiguration;
-      buildSettings = {
-        CODE_SIGN_STYLE = Automatic;
-        DEVELOPMENT_TEAM = "";
-        IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-        PRODUCT_NAME = "$(TARGET_NAME)";
-      };
+		buildSettings = {
+			CODE_SIGNING_ALLOWED = NO;
+			CODE_SIGN_STYLE = Automatic;
+			DEVELOPMENT_TEAM = "";
+			IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+		};
       name = Debug;
     };
     111111111111111111111133 /* Release */ = {
       isa = XCBuildConfiguration;
-      buildSettings = {
-        CODE_SIGN_STYLE = Automatic;
-        DEVELOPMENT_TEAM = "";
-        IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-        PRODUCT_NAME = "$(TARGET_NAME)";
-      };
+		buildSettings = {
+			CODE_SIGNING_ALLOWED = NO;
+			CODE_SIGN_STYLE = Automatic;
+			DEVELOPMENT_TEAM = "";
+			IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+		};
       name = Release;
     };
 /* End XCBuildConfiguration section */
