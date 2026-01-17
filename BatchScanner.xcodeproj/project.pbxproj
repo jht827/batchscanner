@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 56;
+  objects = {
+
+/* Begin PBXBuildFile section */
+    111111111111111111111111 /* BatchScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111112 /* BatchScannerApp.swift */; };
+    111111111111111111111113 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111114 /* ContentView.swift */; };
+    111111111111111111111115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111111111111111111111116 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+    111111111111111111111117 /* BatchScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = BatchScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+    111111111111111111111112 /* BatchScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchScannerApp.swift; sourceTree = "<group>"; };
+    111111111111111111111114 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+    111111111111111111111116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+    111111111111111111111118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+    111111111111111111111119 /* Frameworks */ = {
+      isa = PBXFrameworksBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+    111111111111111111111120 = {
+      isa = PBXGroup;
+      children = (
+        111111111111111111111121 /* BatchScanner */,
+        111111111111111111111122 /* Products */,
+      );
+      sourceTree = "<group>";
+    };
+    111111111111111111111121 /* BatchScanner */ = {
+      isa = PBXGroup;
+      children = (
+        111111111111111111111112 /* BatchScannerApp.swift */,
+        111111111111111111111114 /* ContentView.swift */,
+        111111111111111111111116 /* Assets.xcassets */,
+        111111111111111111111118 /* Info.plist */,
+      );
+      path = BatchScanner;
+      sourceTree = "<group>";
+    };
+    111111111111111111111122 /* Products */ = {
+      isa = PBXGroup;
+      children = (
+        111111111111111111111117 /* BatchScanner.app */,
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+    111111111111111111111123 /* BatchScanner */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 111111111111111111111124 /* Build configuration list for PBXNativeTarget "BatchScanner" */;
+      buildPhases = (
+        111111111111111111111125 /* Sources */,
+        111111111111111111111126 /* Frameworks */,
+        111111111111111111111127 /* Resources */,
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = BatchScanner;
+      productName = BatchScanner;
+      productReference = 111111111111111111111117 /* BatchScanner.app */;
+      productType = "com.apple.product-type.application";
+    };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+    111111111111111111111128 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        BuildIndependentTargetsInParallel = 1;
+        LastUpgradeCheck = 1500;
+        TargetAttributes = {
+          111111111111111111111123 = {
+            CreatedOnToolsVersion = 15.0;
+          };
+        };
+      };
+      buildConfigurationList = 111111111111111111111129 /* Build configuration list for PBXProject "BatchScanner" */;
+      compatibilityVersion = "Xcode 15.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+        Base,
+      );
+      mainGroup = 111111111111111111111120;
+      productRefGroup = 111111111111111111111122 /* Products */;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        111111111111111111111123 /* BatchScanner */,
+      );
+    };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+    111111111111111111111127 /* Resources */ = {
+      isa = PBXResourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        111111111111111111111115 /* Assets.xcassets in Resources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+    111111111111111111111125 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        111111111111111111111111 /* BatchScannerApp.swift in Sources */,
+        111111111111111111111113 /* ContentView.swift in Sources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+    111111111111111111111130 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ENABLE_MODULES = YES;
+        CLANG_ENABLE_OBJC_ARC = YES;
+        CODE_SIGN_STYLE = Automatic;
+        CURRENT_PROJECT_VERSION = 1;
+        DEVELOPMENT_TEAM = "";
+        ENABLE_PREVIEWS = YES;
+        GENERATE_INFOPLIST_FILE = NO;
+        INFOPLIST_FILE = BatchScanner/Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+        LD_RUNPATH_SEARCH_PATHS = (
+          "$(inherited)",
+          "@executable_path/Frameworks",
+        );
+        PRODUCT_BUNDLE_IDENTIFIER = com.example.batchscanner;
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_EMIT_LOC_STRINGS = YES;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+        ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+      };
+      name = Debug;
+    };
+    111111111111111111111131 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ALWAYS_SEARCH_USER_PATHS = NO;
+        CLANG_ENABLE_MODULES = YES;
+        CLANG_ENABLE_OBJC_ARC = YES;
+        CODE_SIGN_STYLE = Automatic;
+        CURRENT_PROJECT_VERSION = 1;
+        DEVELOPMENT_TEAM = "";
+        ENABLE_PREVIEWS = YES;
+        GENERATE_INFOPLIST_FILE = NO;
+        INFOPLIST_FILE = BatchScanner/Info.plist;
+        IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+        LD_RUNPATH_SEARCH_PATHS = (
+          "$(inherited)",
+          "@executable_path/Frameworks",
+        );
+        PRODUCT_BUNDLE_IDENTIFIER = com.example.batchscanner;
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_EMIT_LOC_STRINGS = YES;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1,2";
+        ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+      };
+      name = Release;
+    };
+    111111111111111111111132 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        CODE_SIGN_STYLE = Automatic;
+        DEVELOPMENT_TEAM = "";
+        IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+        PRODUCT_NAME = "$(TARGET_NAME)";
+      };
+      name = Debug;
+    };
+    111111111111111111111133 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        CODE_SIGN_STYLE = Automatic;
+        DEVELOPMENT_TEAM = "";
+        IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+        PRODUCT_NAME = "$(TARGET_NAME)";
+      };
+      name = Release;
+    };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+    111111111111111111111124 /* Build configuration list for PBXNativeTarget "BatchScanner" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        111111111111111111111130 /* Debug */,
+        111111111111111111111131 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    111111111111111111111129 /* Build configuration list for PBXProject "BatchScanner" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        111111111111111111111132 /* Debug */,
+        111111111111111111111133 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+/* End XCConfigurationList section */
+  };
+  rootObject = 111111111111111111111128 /* Project object */;
+}
